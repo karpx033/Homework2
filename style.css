@@ -1,1 +1,74 @@
+:root {
+    --dark: rgb(191, 182, 173);
+    --light: rgb( 235, 234, 229);
+    --gold: rgb(251 185 60);
+    --maroon: rgb(134 35 52);
+    --lettering-DK:  rgb(141, 127, 120);
+}
+html {
+    font-size: 16pt;
+}
+body {
+   background-color: var(--dark);
+   
+}
 
+main {
+    display: block;
+    top: 500px;
+    justify-content: center;
+    position: static;
+}
+
+nav {
+    margin-bottom: 20%;
+    
+}
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    border-style: solid;
+    height: 8vh;
+    z-index: -1;
+    font-size: 52px;
+    align-items:center ;
+}
+
+.nav2 {
+    margin-right: 10%;
+}
+
+.nav3 {
+    margin-left: 10%;
+}
+
+.profileImg {
+    
+    border-style: solid;
+    z-index: 0;
+    top: 0px;
+    position: absolute;
+    left: 40%;
+    width: 20%;
+    height: 20%;
+}
+
+.centerImg {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 0px;
+}
+
+
+.profileName {
+    position: absolute;
+    border-style: solid;
+    border-width: 3px;
+    padding: 5px;
+    box-sizing: border-box;
+    width: 20%;
+    left: 40%;
+    top: 20%;
+    text-align: center;
+    font-size: 52px;
+}
