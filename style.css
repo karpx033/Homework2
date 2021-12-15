@@ -4,71 +4,110 @@
     --gold: rgb(251 185 60);
     --maroon: rgb(134 35 52);
     --lettering-DK:  rgb(141, 127, 120);
+    --evenDarker: rgb(53, 49, 49);
 }
 html {
     font-size: 16pt;
+    
 }
 body {
    background-color: var(--dark);
    
 }
 
+h1 {
+    font-size: 44px;
+    font-weight: bolder;
+    background-color: var(--gold);
+    color: var(--evenDarker);
+}
+article p {
+    background-color: var(--maroon);
+    color: var(--gold);
+    font-size: 36px;
+}
 main {
     display: block;
     top: 500px;
     justify-content: center;
     position: static;
+    font-size: 44px;
 }
 
 nav {
-    margin-bottom: 20%;
+    height: 20vh;
+    background-image: url();
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 3px 3px 5% 3px;
+    
     
 }
+hr {
+    background-color: var(--gold);
+    height: .4vh;
+}
+
+div {
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    gap: 5%;
+    background-color: var(--maroon);
+    color: var(--gold);
+    font-weight: bolder;
+    font-family: "Garamond", Times, serif;
+    border-top-style: solid;
+    border-bottom-style: solid;
+    border-color: var(--evenDarker);
+    border-top-width: 10vh;
+    border-bottom-width: 10vh;
+}
+
+.projectNames {
+    display: flex;
+    justify-content: flex-start;
+    width: 20%;
+}
+
 .navbar {
     display: flex;
     justify-content: space-around;
     border-style: solid;
+    border-color: var(--gold);
     height: 8vh;
     z-index: -1;
     font-size: 52px;
+    font-weight: bolder;
     align-items:center ;
+    color: var(--maroon);
+    border-width: 8px;
+
 }
-
-.nav2 {
-    margin-right: 10%;
-}
-
-.nav3 {
-    margin-left: 10%;
-}
-
-.profileImg {
-    
-    border-style: solid;
-    z-index: 0;
-    top: 0px;
-    position: absolute;
-    left: 40%;
-    width: 20%;
-    height: 20%;
-}
-
-.centerImg {
-    box-sizing: border-box;
-    width: 100%;
-    padding: 0px;
-}
-
-
 .profileName {
     position: absolute;
     border-style: solid;
     border-width: 3px;
     padding: 5px;
-    box-sizing: border-box;
     width: 20%;
     left: 40%;
     top: 20%;
     text-align: center;
     font-size: 52px;
+    background-color: var(--maroon);
+    color: var(--gold);
+    font-family: "Garamond", Times, serif;
+}
+
+.projectDescriptions {
+    width: 20%;
+}
+
+#contactInfo {
+    display: flex;
+    justify-content: space-around;
+    font-size: 52px;
+    color: var(--maroon);
+    font-weight: bolder;
+    font-family: "Garamond", Times, serif;
 }
