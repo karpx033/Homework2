@@ -1,4 +1,13 @@
-Made wireframe of original html
-Adjusted the unordered list inside the nav bar to be a spaced evenly flexbox
-Classified two list items inside the nav bar to create a gap in the center for my planned profile image
-Added classes within the header children so that I can adjust the planned profile image.
+Louis Karp Portfolio Page
+=============
+### Description ###
+This page contains links to an About Me section as well as contact information, links to my current deployed applications, as well as my resume. It will be updated as there are more finished projects as well with more webpage design knowledge.
+
+Here is a link to the deployed webpage: https://karpx033.github.io/Homework2/
+
+![ScreenshotPage1.jpg](ScreenshotPage1.jpg)
+![ScreenshotPage2.jpg](ScreenshotPage2.jpg)
+![ScreenshotPage3.jpg](ScreenshotPage3.jpg)
+![ScreenshotPage4.jpg](ScreenshotPage4.jpg)
+![ScreenshotPage5.jpg](ScreenshotPage5.jpg)
+
