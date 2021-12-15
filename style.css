@@ -12,7 +12,7 @@ html {
 }
 body {
    background-color: var(--dark);
-   
+   min-width: 100vh;
 }
 
 h1 {
@@ -27,7 +27,8 @@ article p {
     font-size: 36px;
 }
 main {
-    display: block;
+    display: flex;
+    flex-direction: column;
     top: 500px;
     justify-content: center;
     position: static;
@@ -35,11 +36,11 @@ main {
 }
 
 nav {
-    height: 20vh;
-    background-image: url();
+    height: 90vh;
+    background-image: url(https://github.com/karpx033/Homework2/blob/main/ME.jpg?raw=true);
     background-position: center;
     background-repeat: no-repeat;
-    margin: 3px 3px 5% 3px;
+    margin: 3px 3px 2% 3px;
     
     
 }
@@ -91,7 +92,7 @@ div {
     padding: 5px;
     width: 20%;
     left: 40%;
-    top: 20%;
+    top: 80%;
     text-align: center;
     font-size: 52px;
     background-color: var(--maroon);
@@ -102,6 +103,22 @@ div {
 .projectDescriptions {
     width: 20%;
 }
+.navButton:link{
+    color: var(--maroon);
+}
+.navButton:visited {
+    color: var(--gold);
+}
+.navButton:hover {
+    background-color: var(--maroon);
+}
+.navButton:active {
+    color: var(--evenDarker);
+}
+
+.projectdiv:hover {
+    border-color: var(--gold);
+}
 
 #contactInfo {
     display: flex;
@@ -111,3 +128,48 @@ div {
     font-weight: bolder;
     font-family: "Garamond", Times, serif;
 }
+
+#project1pic {
+    height: 500px;
+}
+
+@media screen and (max-width: 992px) {
+    nav {
+      background-size: 400px
+      height: 40vh;
+
+    }
+   
+     div {
+        justify-content: center;
+      display: block;
+     }
+
+    .navbar {
+    font-size: 36px;
+    }
+
+    .projectNames {
+        display: flex;
+        width: 100%;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .projectDescriptions {
+        display: flex;
+        width: 100%;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+}
+  
+  /* Large smartphones - navbar changes color */
+  @media screen and (max-width: 768px) {
+    
+    
+  }
+  
+  /* Small smartphones - image placeholders change color */
+  @media screen and (max-width: 576px) {
+
+  }
