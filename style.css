@@ -111,6 +111,7 @@ div {
 }
 .navButton:hover {
     background-color: var(--maroon);
+    color: var(--gold);
 }
 .navButton:active {
     color: var(--evenDarker);
